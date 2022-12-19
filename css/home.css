@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+
+}
+.innerMain{
+    width: 75%;
+    /* background-color: rgb(8, 77, 77); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.header{
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(35, 61, 61); */
+    text-align: center;
+    padding-top: 8px;
+    border-bottom: solid rgb(97, 95, 95) 1px;
+}
+.mainTitle{
+    font-size: 55px;
+    color: rgb(80, 78, 78);
+}
+.mainTitle > span{
+    font-weight: bold;
+    color: black;
+}
+.addressCont{
+    font-size: 16px;
+}
+.emailCont{
+    font-size: 18px;
+    color: rgb(1, 129, 1);
+    font-weight: bold;
+}
+
+
+
+
+/* sub container */
+.subCont{
+width: 90%;
+height: 1000px;
+}
+.topPara{
+    font-size: 18px;
+    color: rgb(65, 64, 64);
+    margin-top: 15px;
+    margin-bottom: 25px;
+   
+}
+
+.expCont{
+    margin-top: 29px;
+    margin-bottom: 20px;
+    /* background-color: aqua; */
+}
+.exp{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(49, 47, 47);
+  
+}
+.dotedDiv{
+    border-left:dotted 4px  rgb(99, 98, 98);
+    padding-left: 30px;
+    margin-left: 7px;
+}
+.expDatePara{
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(54, 50, 50);
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.instPara{
+    font-weight: bold;
+    color: rgb(1, 129, 1);
+    margin-bottom: 2px;
+    margin-bottom: 4px;
+   
+}
+.societe{
+    color: rgb(68, 67, 67);
+}
+.InnerSubPara{
+    font-size: 18px;
+    color: rgb(65, 64, 64);
+}
+
+
+/* list container */
+.list{
+    display: flex;
+    padding-left: 25px;
+}
+.firstList{
+    width: 40%;
+    
+}
+.secondList{
+    width: 40%;
+}
+ul>li{
+    line-height: 24px;
+    color: rgb(1, 129, 1); 
+    font-size: 25px;
+}
+.listPara{
+    /* margin-right: 35px; */
+    color: rgb(65, 64, 64);
+    font-size: 18px;
+}
+
+/* activity container */
+@media (max-width:604px){
+    .innerMain{
+        width: 100%;   
+    } 
+    .list{
+        flex-direction: column;
+        /* align-items: center; */
+    } 
+}
